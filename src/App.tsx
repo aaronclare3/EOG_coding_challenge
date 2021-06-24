@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Wrapper from './components/Wrapper';
 import Dashboard from './components/Dashboard';
 
+
 const store = createStore();
 const theme = createMuiTheme({
   palette: {
