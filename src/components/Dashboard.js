@@ -1,5 +1,6 @@
 import React from 'react';
 import Dropdown from './Dropdown';
+import CurrentMeasurement from './CurrentMeasurement';
 import { ApolloClient, InMemoryCache, ApolloProvider as ApolloHooksProvider } from '@apollo/client';
 
 const client = new ApolloClient({

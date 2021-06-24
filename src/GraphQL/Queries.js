@@ -5,3 +5,14 @@ export const LOAD_METRICS = gql`
     getMetrics
   }
 `;
+
+export const LOAD_LAST_KNOWN_MEASUREMENT = gql`
+  query GetLastKnownMeasurement($metric: String!) {
+    getLastKnownMeasurement(metricName: $metric) {
+      metric
+      at
+      value
+      unit
+    }
+  }
+`;
